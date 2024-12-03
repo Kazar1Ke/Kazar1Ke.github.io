@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita One&display=swap');
+body{
+    background: linear-gradient(90deg, #ce00d1 0%, #d40020 100%);
+    font-family: Lilita One;
+}
+p{
+    color: #e2e2e2;
+}
+.navbar-nav .nav-link.active{
+    color: #ff0026;
+    font-size: 1.4rem;
+}
+.nav-link{
+    color: #ff00ff;
+    font-size: 1.4rem;
+}
+.navbar img{
+    width: 90px;
+    margin: 0;
+}
+.navbar-toggler{
+    background-color: #ffa8ec;
+}
+.sidebar{
+    background: linear-gradient(90deg, #00473c 0%, #00a085 100%);
+    color: #e2e2e2;
+    border-radius: 30px;
+}
+.card{
+    background: linear-gradient(90deg, #00473c 0%, #00a085 100%);
+    color: #e2e2e2;
+    
+}
+.slide{
+    background: linear-gradient(90deg, #bc4200 0%, #ff5900 100%);
+    color: #e2e2e2;
+    margin-block: auto auto;
+}   
+footer{
+    background-color: #292929;
+    padding: 6rem;
+    font-size: 2rem;
+    color: #e2e2e2;
+}
+.problems{
+    animation: problems 4s linear 0s infinite normal forwards;
+}
+@keyframes problems {
+    0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+    }
+   
+    10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+    }
+   
+    17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+    }
+   
+    33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+    }
+   
+    45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    }
+   }

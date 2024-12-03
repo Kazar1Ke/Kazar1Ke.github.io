@@ -1,0 +1,35 @@
+.bgvideo{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgvideo video{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.text-video{
+    color: #e2e2e2;
+    z-index: 2;
+    font-size: 50px ;
+}
+.text-video h1{
+    font-size: 50px ;
+}
+.eff{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.297);
+}   
